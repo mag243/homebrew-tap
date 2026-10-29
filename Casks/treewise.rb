@@ -4,8 +4,7 @@ cask "treewise" do
   version "0.1.1,2026.1029.164801"
   sha256 "d0ea96ae1dddcb4e8cd4e885f5cfecfcaedcdbdbbc5027c3005101bcfe728803"
 
-  url "https://github.com/mag243/treewise-releases/releases/download/v#{version.csv.first}/Treewise-#{version.csv.first}-#{version.csv.second}.zip",
-      verified: "github.com/mag243/treewise-releases/"
+  url "https://github.com/mag243/treewise-releases/releases/download/v#{version.csv.first}/Treewise-#{version.csv.first}-#{version.csv.second}.zip"
   name "Treewise"
   desc "File manager with the behaviour of Windows Explorer"
   homepage "https://mag243.github.io/treewise-releases/"
@@ -16,7 +15,7 @@ cask "treewise" do
   end
 
   auto_updates true
-  depends_on macos: ">= :sequoia"
+  depends_on macos: :sequoia
 
   app "Treewise.app"
 
