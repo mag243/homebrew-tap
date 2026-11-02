@@ -1,8 +1,8 @@
 # Written by tools/homebrew/cask.sh from tools/homebrew/pairwise.rb.template in
 # mag243/pairwise on every release (ADR 0059); changes made here are overwritten.
 cask "pairwise" do
-  version "0.1.0,2026.1102.173601"
-  sha256 "cf860ec7ef16fbe788d3f5eb6edf0a3dfad1b6e03c793901f577150568a94fe7"
+  version "0.1.1,2026.1102.175201"
+  sha256 "df061756145a0378b0d629054a79618028801d7f21d94a84c8f7c82370ce01fb"
 
   url "https://github.com/mag243/pairwise/releases/download/v#{version.csv.first}/Pairwise-#{version.csv.first}-#{version.csv.second}.zip"
   name "Pairwise"
