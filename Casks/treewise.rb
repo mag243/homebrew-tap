@@ -1,8 +1,8 @@
 # Written by tools/homebrew/cask.sh from tools/homebrew/treewise.rb.template in
 # mag243/treewise on every release (ADR 0033); changes made here are overwritten.
 cask "treewise" do
-  version "0.9.2,2026.1119.212502"
-  sha256 "d424aef1e73246b8df185b4746203b06a7ef9352a084283fb471d0e007c3ff22"
+  version "0.9.3,2026.1120.195801"
+  sha256 "2c955e7637ee7fa5987e011fac53c4ff42ce5612fbf070f5036d5b94338f0e75"
 
   url "https://github.com/mag243/treewise/releases/download/v#{version.csv.first}/Treewise-#{version.csv.first}-#{version.csv.second}.zip"
   name "Treewise"
